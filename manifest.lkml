@@ -1,6 +1,6 @@
-project_name: "extends_remote"
+project_name: "hub_and_spoke"
 
-remote_dependency: extends_remote {
-  url: "git://github.com/emma-ware/Dont-mess-with.git"
-  ref: "8a66b3b4cd7e6c4b33d9cc8d5cbfbca78d8530ea"
+remote_dependency: core_hub_model {
+  url: "git://github.com/emma-ware/core_hub_model.git"
+  ref: "45966997f526e777b2fcca01935bdecdac36980a"
 }

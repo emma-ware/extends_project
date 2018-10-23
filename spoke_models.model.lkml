@@ -1,6 +1,6 @@
 include: "*.view.lkml"                                        # include all views in this project
-include: "/extends_remote/do_not_mess_with_lookml.model.lkml" # include the remote model file (contains the connection)
-include: "/extends_remote/*.view"                             # includes the remote views
+include: "/core_hub_model/core_hub_model.model.lkml"          # include the remote model file (contains the connection)
+include: "/hub_and_spoke/*.view"                             # includes the remote views
 
 
 explore: orders_spoke {

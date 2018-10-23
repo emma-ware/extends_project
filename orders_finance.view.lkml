@@ -1,4 +1,4 @@
-include: "/extends_remote/*.view"
+include: "/core_hub_model/*.view"
 
 view: orders_finance {
   view_label: "Orders"

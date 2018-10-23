@@ -1,4 +1,4 @@
-include: "/extends_remote/*.view"
+include: "/core_hub_model/*.view"
 
 
 view: items_finance {
